@@ -9,6 +9,8 @@ MONGO_URL= os.getenv("MONGO_DB_URL")
 import certifi
 ca=certifi.where()
 
+
+
 import pandas as pd
 import numpy as np
 import pymongo
@@ -31,18 +33,16 @@ class NetworkDataExtract():
         except Exception as e:
             raise NetworkSecurityException(e,sys)
     
-    def insert_data_to_mongo(self,records,collection,database):
-        try:
-            self.database=database
-            self.collection=collection
-            self.records=records
-            self.client=pymongo.MongoClient(MONGO_URL,tls=True,tlsCAFile=ca)
-            self.database=self.client[self.database]
-            self.collection=self.database[self.collection]
-            self.collection.insert_many(self.records)
-            return(len(self.records))
-        except Exception as e:
-            raise NetworkSecurityException(e,sys)
+    def insert_data_to_mongo(self, records, collection_name, database_name):
+     try:
+        self.client = pymongo.MongoClient(MONGO_URL, tls=True, tlsCAFile=ca)
+        db = self.client[database_name]
+        collection = db[collection_name]
+        
+        collection.insert_many(records)
+        return len(records)
+     except Exception as e:
+        raise NetworkSecurityException(e, sys)
 
 if __name__=="__main__":
     FILE_PATH="Network_Data\phisingData.csv"
