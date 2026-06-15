@@ -1,5 +1,0 @@
-[2026-06-14 16:44:31,897] NetworkSecurity - INFO - Initiate the data ingestion
-[2026-06-14 16:44:36,285] NetworkSecurity - INFO - Performed train test split
-[2026-06-14 16:44:36,285] NetworkSecurity - INFO - Exited split_data_as_train_test method of Data_Ingestion class
-[2026-06-14 16:44:36,285] NetworkSecurity - INFO - Exporting train and test split
-[2026-06-14 16:44:36,326] NetworkSecurity - INFO - Exported train and test split file path
