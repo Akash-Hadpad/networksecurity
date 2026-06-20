@@ -1,0 +1,13 @@
+[2026-06-21 00:11:28,562] NetworkSecurity - INFO - Initiate the data ingestion
+[2026-06-21 00:11:32,815] NetworkSecurity - INFO - Performed train test split
+[2026-06-21 00:11:32,815] NetworkSecurity - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2026-06-21 00:11:32,817] NetworkSecurity - INFO - Exporting train and test split
+[2026-06-21 00:11:32,858] NetworkSecurity - INFO - Exported train and test split file path
+[2026-06-21 00:11:32,859] NetworkSecurity - INFO - Data Initiation Completed
+[2026-06-21 00:11:32,863] NetworkSecurity - INFO - Initiate the data validation
+[2026-06-21 00:11:32,881] NetworkSecurity - INFO - Required no of Columns:2
+[2026-06-21 00:11:32,881] NetworkSecurity - INFO - Dataframe has Columns:31
+[2026-06-21 00:11:32,883] NetworkSecurity - INFO - Required no of Columns:2
+[2026-06-21 00:11:32,883] NetworkSecurity - INFO - Dataframe has Columns:31
+[2026-06-21 00:11:33,030] NetworkSecurity - INFO - data validation completed
+[2026-06-21 00:11:33,030] NetworkSecurity - INFO - data transformation started
