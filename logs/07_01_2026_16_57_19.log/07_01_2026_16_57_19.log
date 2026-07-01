@@ -1,0 +1,19 @@
+[2026-07-01 16:57:21,053] NetworkSecurity - INFO - Initiate the data ingestion
+[2026-07-01 16:57:25,821] NetworkSecurity - INFO - Performed train test split
+[2026-07-01 16:57:25,821] NetworkSecurity - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2026-07-01 16:57:25,821] NetworkSecurity - INFO - Exporting train and test split
+[2026-07-01 16:57:25,860] NetworkSecurity - INFO - Exported train and test split file path
+[2026-07-01 16:57:25,860] NetworkSecurity - INFO - Data Initiation Completed
+[2026-07-01 16:57:25,865] NetworkSecurity - INFO - Initiate the data validation
+[2026-07-01 16:57:25,883] NetworkSecurity - INFO - Required no of Columns:2
+[2026-07-01 16:57:25,883] NetworkSecurity - INFO - Dataframe has Columns:31
+[2026-07-01 16:57:25,885] NetworkSecurity - INFO - Required no of Columns:2
+[2026-07-01 16:57:25,885] NetworkSecurity - INFO - Dataframe has Columns:31
+[2026-07-01 16:57:25,991] NetworkSecurity - INFO - data validation completed
+[2026-07-01 16:57:25,992] NetworkSecurity - INFO - data transformation started
+[2026-07-01 16:57:25,992] NetworkSecurity - INFO - Starting data transformation
+[2026-07-01 16:57:26,011] NetworkSecurity - INFO - Entered get_transformer object method of transformation class
+[2026-07-01 16:57:26,023] NetworkSecurity - INFO - Entered the save object method of main utils class
+[2026-07-01 16:57:26,025] NetworkSecurity - INFO - Exited the save object method of main utils class
+[2026-07-01 16:57:26,026] NetworkSecurity - INFO - Data transformation completed
+[2026-07-01 16:57:26,026] NetworkSecurity - INFO - Model training started
